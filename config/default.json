@@ -1,0 +1,15 @@
+{
+    "giphy": {
+        "baseUrl": "https://api.giphy.com",
+        "randomImageUrl": "/v1/gifs/random",
+        "apiKey": "xgcnvYuqk4vP1WQQtWPz6F1A0B4WHHdA"
+    },
+    "cache": {
+        "ttl": 60
+    },
+    "db": {
+        "connectionString": "mongodb://localhost:27017/random_image"
+    },
+    "retryCount": 10,
+    "port": 3000
+}
